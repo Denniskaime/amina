@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 h1 {
     color:green;
 }
@@ -17,6 +21,40 @@ h1 {
   .highlight{
     color: orange;
   }
+  .icon{
+    width: 200px;
+
+    height: 70px;
+  }
+  .logo{
+    color: #ff7200;
+    font-size: 70px;
+    font-family: Arial;
+
+    float: left;
+    padding-top: 10px;
+  }
+  .container{
+    border: 10px solid #000;
+    padding: 10px;
+    text-align: center;
+  }
+  .content{
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+  }
+  .left-section{
+    flex:1;
+    background-color: lightgray;
+    padding: 20px;
+  }
+  .right-section {
+    flex: 1;
+    background-color: gray;
+    padding: 20px;
+  }
+
   .navbar ul{
     list-style: none;
     background: #663366;
